@@ -41,6 +41,10 @@ Hover state on button:
 
 ![](./screenshots/hover.png)
 
+Design comparison:
+
+![](./screenshots/designComparison.png)
+
 
 ### Links
 
