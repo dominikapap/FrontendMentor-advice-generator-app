@@ -44,8 +44,8 @@ Hover state on button:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/dominikapap/FrontendMentor-advice-generator-app](https://github.com/dominikapap/FrontendMentor-advice-generator-app)
+- Live Site URL: [https://dominikapap-advice-generator.netlify.app/](https://dominikapap-advice-generator.netlify.app/)
 
 ## My process
 
