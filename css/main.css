@@ -1,0 +1,103 @@
+body {
+  background-color: #202733;
+  box-sizing: border-box;
+}
+
+.content {
+  box-sizing: border-box;
+  width: clamp(343px, 80vw, 540px);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  min-height: 250px;
+  background: #313a48;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+@media (min-width: 640px) {
+  .content {
+    border-radius: 15px;
+  }
+}
+.content_header {
+  font-size: 0.7rem;
+  line-height: 0.94rem;
+  letter-spacing: 3.45714px;
+  color: #53ffaa;
+  padding-top: 40px;
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+@media (min-width: 640px) {
+  .content_header {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 4.08571px;
+    padding-top: 3rem;
+  }
+}
+.content_text {
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.257143px;
+  color: #cee3e9;
+  padding-top: 0;
+  padding-right: min(1.5rem, 8%);
+  padding-left: min(1.5rem, 8%);
+  padding-bottom: 1.5rem;
+}
+@media (min-width: 640px) {
+  .content_text {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.3px;
+    padding-right: min(48px, 10%);
+    padding-left: min(48px, 10%);
+    padding-bottom: 40px;
+  }
+}
+.content_divider {
+  padding-top: 0;
+  padding-right: clamp(1.5rem, 10%, 48px);
+  padding-left: clamp(1.5rem, 10%, 48px);
+  padding-bottom: 64px;
+}
+@media (min-width: 640px) {
+  .content_divider {
+    padding-bottom: 72px;
+  }
+}
+.content_button {
+  width: 4rem;
+  height: 4rem;
+  background-color: #53ffaa;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+}
+.content_button:hover {
+  box-shadow: 0px 0px 40px #53ffaa;
+}
+
+.tablet-up {
+  display: none;
+}
+@media (min-width: 640px) {
+  .tablet-up {
+    display: inline;
+  }
+}
+
+@media (min-width: 640px) {
+  .mobile-up-tablet {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,10 @@
+$bg-primary: #202733;
+$bg-secondary: #313a48;
+$accent: #53ffaa;
+$text-primary: #cee3e9 ;
+
+@mixin tablet-up {
+    @media (min-width: 640px) {
+      @content;
+    }
+  }
