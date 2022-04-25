@@ -8,7 +8,7 @@ body {
   width: clamp(343px, 80vw, 540px);
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: -1rem;
+  margin-top: -1.8rem;
   min-height: 250px;
   background: #313a48;
   box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
@@ -82,7 +82,7 @@ body {
   border: none;
   border-radius: 50%;
   position: absolute;
-  top: 90%;
+  top: 89%;
 }
 .content_button:hover {
   box-shadow: 0px 0px 40px #53ffaa;
